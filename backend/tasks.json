@@ -1,0 +1,67 @@
+{
+    "Button": {
+        "import Link from \"next/link\"\r\n\r\nimport { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonAsChild() {\r\n  return (\r\n    <Button asChild>\r\n      <Link href=\"/login\">Login</Link>\r\n    </Button>\r\n  )\r\n}": [
+            "Create a custom Button component that accepts children",
+            "Use the custom Button component in a NextJS page",
+            "Embed a NextJS Link component within the custom Button component",
+            "Set the href of the Link component to '/login'"
+        ],
+        "import { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonDemo() {\r\n  return <Button>Button</Button>\r\n}": [
+            "Create a Button component in the ui directory",
+            "Import the Button component into the ButtonDemo component",
+            "Render the Button component in the ButtonDemo component"
+        ],
+        "import { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonDestructive() {\r\n  return <Button variant=\"destructive\">Destructive</Button>\r\n}": [
+            "Create a custom button component using the @shadcn/ui library.",
+            "Style the button with a 'destructive' variant using tailwindcss.",
+            "Export the custom button component for use in other parts of the application."
+        ],
+        "import { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonGhost() {\r\n  return <Button variant=\"ghost\">Ghost</Button>\r\n}": [
+            "Create a reusable Button component with a 'ghost' variant.",
+            "Import the Button component from the ui library.",
+            "Export a function that returns the Button component with the 'ghost' variant.",
+            "Test the ButtonGhost function to ensure it renders the Button component correctly."
+        ],
+        "import { ChevronRight } from \"lucide-react\"\r\n\r\nimport { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonIcon() {\r\n  return (\r\n    <Button variant=\"outline\" size=\"icon\">\r\n      <ChevronRight className=\"h-4 w-4\" />\r\n    </Button>\r\n  )\r\n}": [
+            "Create a custom button component using the @shadcn/ui library.",
+            "Import the ChevronRight icon from the lucide-react library.",
+            "Use the ChevronRight icon as a child of the Button component.",
+            "Style the ChevronRight icon using Tailwind CSS.",
+            "Set the variant of the Button component to 'outline'.",
+            "Set the size of the Button component to 'icon'."
+        ],
+        "import { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonLink() {\r\n  return <Button variant=\"link\">Link</Button>\r\n}": [
+            "Create a ButtonLink component that uses the Button component from the @shadcn/ui library.",
+            "Set the variant of the Button component to 'link'.",
+            "Add the text 'Link' inside the Button component."
+        ],
+        "import { Loader2 } from \"lucide-react\"\r\n\r\nimport { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonLoading() {\r\n  return (\r\n    <Button disabled>\r\n      <Loader2 className=\"mr-2 h-4 w-4 animate-spin\" />\r\n      Please wait\r\n    </Button>\r\n  )\r\n}": [
+            "Create a reusable loading button component using NextJS, @shadcn/ui and tailwindcss.",
+            "Import the Loader2 component from the lucide-react library to use as a loading spinner.",
+            "Import the Button component from the @shadcn/ui library.",
+            "Use the Button component and add the Loader2 component inside it to show a loading state.",
+            "Add the 'disabled' attribute to the Button component to prevent users from clicking it while it's in a loading state.",
+            "Use tailwindcss to add styling to the Loader2 component, including margin, height, width, and animation.",
+            "Add a text 'Please wait' next to the Loader2 component to indicate to the user that the process is loading."
+        ],
+        "import { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonOutline() {\r\n  return <Button variant=\"outline\">Outline</Button>\r\n}": [
+            "Create a Button component with an 'outline' variant",
+            "Import the Button component from the @shadcn/ui library",
+            "Use the Button component in a functional component named 'ButtonOutline'",
+            "Export the 'ButtonOutline' functional component as the default export"
+        ],
+        "import { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonSecondary() {\r\n  return <Button variant=\"secondary\">Secondary</Button>\r\n}": [
+            "Create a secondary button component using the @shadcn/ui library.",
+            "Use the Button component from the @shadcn/ui library to create a new component.",
+            "Set the variant of the button to 'secondary'.",
+            "Add a label 'Secondary' to the button."
+        ],
+        "import { Mail } from \"lucide-react\"\r\n\r\nimport { Button } from \"@/components/ui/button\"\r\n\r\nexport default function ButtonWithIcon() {\r\n  return (\r\n    <Button>\r\n      <Mail className=\"mr-2 h-4 w-4\" /> Login with Email\r\n    </Button>\r\n  )\r\n}": [
+            "Create a button component with an icon and text",
+            "Import the Mail icon from lucide-react library",
+            "Use the Button component from the custom UI components library",
+            "Style the Mail icon and position it to the left of the text",
+            "Add the text 'Login with Email' to the button"
+        ]
+    }
+}
